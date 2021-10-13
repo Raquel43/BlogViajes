@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilosAutores.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="container">
+    <img id="imagenEscribir" src="img/notebook.jpg" alt="">
+    <h1>AUTORS</h1>
+    <form action="">
+       <p> <label for="nif">NIF </label><input id="nif" type="text" required></p>
+       <p> <label for="nom">Nom </label><input id="nom" type="text" required></p>
+       <p> <label for="llinatges">Llinatges </label><input id="llinatges" type="text" required></p>
+       <p> <label for="naixement">Data de naixement </label><input id="naixement" type="date" required></p>
+       <p><select name="" id="rol">
+          <option value="administrador">Administrador</option> 
+          <option value="publicador">Publicador</option> 
+          <option value="ajudant">Ajudant</option> 
+       </select></p>
+       <button type="button" id="btn-guardar">Guardar Dades</button>
+    </form>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nif</th>
+            <th>Nom</th>
+            <th>Llinatges</th>
+            <th>naixement</th>
+            <th>rol</th>
+        </tr>
+    </thead>
+
+    <tbody id="autores">
+
+    </tbody>
+</table>
+<img id="imagenEscribir2" src="img/notebook2.jpg" alt="">
+</div>
+<script src="./js/appAutores.js" type="module"></script>
+</body>
+</html>

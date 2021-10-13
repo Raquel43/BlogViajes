@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <!-- sirve para optimizar los sitios para móviles, esta etiqueta ayuda a definir el ancho, alto y escala del área usada por el navegador para mostrar contenido -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Emilio Valdivia"/>
+  <meta name="description" content="Blog de viajes por todo el mundo, las mejores ciudades para viajar"/>
+  <meta name="keywords" content="viajar,viajes,travel,londres,mallorca"/>
+  <title>Blog de Viajes</title>
+  <!-- Uso de normalize.css para resetear los estilos por defecto de las etiquetas html -->
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+<body>
+
+  <!-- Cabecera -->
+  <header class="site-header contenedor">
+    <img src="img/logo.png" alt="logotipo">
+  </header>
+
+  <!-- Menu de navegación -->
+  <div class="contenedor-nav">
+    <nav id="nav" class="navegacion-principal contenedor">
+      <a href="#">Inicio</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Blog</a>
+      <a href="#">Tienda</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </div>
+
+  <!-- Contenedor principal -->
+  <div class="contenedor clearfix">
+    <main id="contenido" class="contenido-principal">
+      <article class="entrada">
+        <h2><img id="post-1" class="favorite" src="img/favorite-on-icon.png" alt="marcar como favorita" />Viajar a Londres</h2>
+        <img src="img/imagen_1.jpg" alt="Imagen Viaje a Londres">
+        <p>Lorem ipsum dolor sit amet, ï consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#" class="boton">Leer Más</a>
+      </article>
+      <article class="entrada">
+        <h2><img id="post-2" class="favorite" src="img/favorite-off-icon-2.png" alt="marcar como favorita" />Puente De la Torre</h2>
+        <img src="img/imagen_2.jpg" alt="Imagen Puente De la torre">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#" class="boton">Leer Más</a>
+      </article>
+      <article class="entrada">
+        <h2><img id="post-3" class="favorite" src="img/favorite-off-icon-2.png" alt="marcar como favorita" />Metro de Londres</h2>
+        <img src="img/imagen_3.jpg" alt="Imagen Metro de Londres">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#" class="boton">Leer Más</a>
+      </article>
+    </main>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <section class="otras-entradas">
+        <h2>Otros Posts</h2>
+        <ul>
+          <li><a href="#">Entrada 1</a></li>
+          <li><a href="#">Entrada 2</a></li>
+          <li><a href="#">Entrada 3</a></li>
+          <li><a href="#">Entrada 4</a></li>
+        </ul>
+      </section>
+      <section id="entradas-favoritas">
+        <h2>Entradas favoritas</h2>
+        <div class="favorite" id="favorit">
+         
+        </div>
+        <button type="button" id="borrado">Borrar Favoritos</button>
+      </section>
+    </aside>
+  </div><!--.contenedor-->
+
+  <footer class="footer-sitio">
+    <div class="contenedor clearfix">
+      <section class="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </section>
+      <section class="menu">
+        <h2>Webs amigas</h2>
+        <nav class="web-amigas">
+          <a href="#">Excursiones premium</a>
+          <a href="#">Circuitos únicos</a>
+          <a href="#">Cruceríssimo</a>
+          <a href="#">TodoViaje</a>
+        </nav>
+      </section>
+    </div>
+    <p class="copyright">BlogdeViajes - Todos los derechos Reservados 2021 &copy;</p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>

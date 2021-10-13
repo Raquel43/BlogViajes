@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "titol":"Viajar a Londres",
+        "descripcio":"Lorem ipsum dolor sit amet, ï consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "dataPublicacio":"01/09/2021",
+        "autor":"Emilio Valdivia",
+        "foto":"imagen_1.jpg"
+    },
+    {
+        "id":2,
+        "titol":"Puente De la Torre",
+        "descripcio":"Lorem ipsum dolor sit amet, ï consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "dataPublicacio":"15/09/2021",
+        "autor":"Cristina Torrelló",
+        "foto":"imagen_2.jpg"
+    },
+    {
+        "id":3,
+        "titol":"Metro de Londres",
+        "descripcio":"Lorem ipsum dolor sit amet, ï consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "dataPublicacio":"20/09/2021",
+        "autor":"Juan Alarcón",
+        "foto":"imagen_3.jpg"
+    }
+]
